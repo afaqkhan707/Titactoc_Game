@@ -1,0 +1,26 @@
+body {
+    background-color: #333;
+  }
+  .game {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  td {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+  }
+  table {
+    margin: 50px auto;
+  }
+  h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin: 50px auto;
+  }
+  

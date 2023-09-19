@@ -1,0 +1,36 @@
+header {
+  color: #fff;
+  background-color: #233056;
+  min-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.icons{
+  padding: 0px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+}
+ul li {
+  list-style: none;
+  padding: 1px 12px;
+  border-right: 1px solid #cccccc33;
+  font-size: 14px;
+}
+ul li a {
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+  text-decoration-color: #fff;
+}
+ul li:nth-child(8) {
+  border-right: none;
+}
